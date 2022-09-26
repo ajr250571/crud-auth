@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1 class="display-1 text-center">Django App</h1>
+<p class="text-justify">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam quam
+  nostrum praesentium dignissimos laudantium cum nulla, molestiae possimus
+  repellat suscipit animi laborum fugit quia aperiam sint neque dolores libero
+  voluptates qui, sapiente atque minus. Quibusdam saepe soluta delectus quaerat,
+  vero numquam quos accusamus. Ipsam autem voluptatem molestiae omnis vel
+  voluptatum, sequi alias culpa eius beatae velit at vitae repellat dolorum
+  quasi natus obcaecati, doloremque eum eaque fuga. Eius unde exercitationem
+  eaque quis, id culpa expedita illum cum mollitia dolorem, doloremque accusamus
+  iure fuga neque dolorum velit veniam vitae corporis in praesentium dignissimos
+  quasi eveniet, modi ab! Voluptas, numquam molestiae?
+</p>
+<div class="text-center">
+  <a class="btn btn-primary" href="{% url 'signin' %}">
+    Sign In
+  </a>
+  <a class="btn btn-secondary" href="{% url 'signup' %}">
+    Sign Up
+  </a>
+
+</div>
+
+{% endblock %}
