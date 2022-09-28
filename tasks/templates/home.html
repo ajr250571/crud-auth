@@ -1,5 +1,10 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
 
+{% block header %}
+<title>Tasks - HOME</title>
+{% endblock header %}
+
+{% block content %}
 <h1 class="display-1 text-center">Django App</h1>
 <p class="text-justify">
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam quam
@@ -15,7 +20,7 @@
 </p>
 <div class="text-center">
   <a class="btn btn-primary" href="{% url 'signin' %}">
-    Sign In
+    Login
   </a>
   <a class="btn btn-secondary" href="{% url 'signup' %}">
     Sign Up
